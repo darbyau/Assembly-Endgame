@@ -4,6 +4,8 @@ Assembly Endgame
 
 A browser-based inspired by word-guessing mechanics where players must correctly assemble a hidden, programming-related word before running out of attempts. Each incorrect guess allows “Assembly” to take over further, knocking out a programming language one by one until the player either successfully completes the word or runs out of lives. Built with a focus on clean UI, responsive interactions, and dynamic visual feedback.
 
+🔗 Click → [Demo](https://endgame-survival.netlify.app) 
+
 ## Features
 
 - Random word selection
