@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  /* background-color: #282726; */
+  background-color: #0f0c1f;
+  /* background-color: #0a0a12; */
+  color: #f9f4da;
+  padding: 73px 57px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* border: 1px solid blue; */
+}
+
+main {
+  padding: 30px;
+  /* background: linear-gradient(135deg, #1a0b2e, #3b0f70, #7a2cff); */
+  background: linear-gradient(135deg, #0f0c29, #302b63, #6a11cb);
+  /* border: 3px solid transparent; */
+  border-radius: 10px;
+  /* linear-gradient(135deg, #7e7df9, #d4fdff, #ee6e76) border-box; */
+  position: relative;
+}
+
+
+
+main::after,
+main::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* background-color: #d4fdff; */
+  background-image: conic-gradient(#7e7df9, #d4fdff, #ee6e76, #7e7df9);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 10px;
+  animation: 3a spin linear infinite;
+}
+
+main::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
