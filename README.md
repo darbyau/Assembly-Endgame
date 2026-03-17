@@ -21,7 +21,7 @@ A browser-based inspired by word-guessing mechanics where players must correctly
 2. Each wrong letter removes a programming language from the board.
 3. Guess the full word before you run out of wrong guesses.
 
-## 🛠️ Customization
+##  Customization
 
 - The word list lives in `src/utils.js` (or `languages.js` for the language chips).
 
@@ -29,8 +29,28 @@ A browser-based inspired by word-guessing mechanics where players must correctly
 
 React, JavaScript, HTML, CSS
 
+## ▶️ How to Run
 
-## 🔮 Future Improvements
+### 1. Clone the repository
+```bash
+git clone https://github.com/darbyau/Assembly-Endgame.git
+```
+### 2. Navigate to the project directory:
+```bash
+cd Assembly-Endgame
+```
+### 3. Install dependencies
+```bash
+npm install
+```
+
+### 4. Start the development server
+```bash
+npm run dev
+```
+
+
+## Future Improvements
 
 - 🔊 Sound effects for interactions
 - ⏱️ Timer-based gameplay mode
@@ -40,4 +60,3 @@ React, JavaScript, HTML, CSS
 
 ---
 
-If you'd like, I can also add a “How to contribute” section, testing instructions, or a roadmap for new features.
